@@ -37,7 +37,7 @@ function App() {
        element={<HotAccessories smartDevice={data.hotAccessories.smartDevice} smartDeviceCover={data.hotAccessoriesCover.smartDevice}  />}>
        </Route>
 
-       <Route exact path="/home"
+       <Route exact path="/"
        element={<HotAccessories home={data.hotAccessories.home} homeCover={data.hotAccessoriesCover.home}  />}>
        </Route>
 
